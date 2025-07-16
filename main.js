@@ -153,8 +153,21 @@ const ramos = [
 ];
 
 // Estado: nombre del ramo → aprobado o no
-let estado = {};
-ramos.forEach(ramo => estado[ramo.nombre] = false);
+function cargarEstado() {
+  const guardado = localStorage.getItem('estadoMalla');
+  if (guardado) {
+    return JSON.parse(guardado);
+  }
+  const estadoInicial = {};
+  ramos.forEach(ramo => estadoInicial[ramo.nombre] = false);
+  return estadoInicial;
+}
+
+function guardarEstado(estado) {
+  localStorage.setItem('estadoMalla', JSON.stringify(estado));
+}
+
+let estado = cargarEstado();
 
 // Renderiza la malla agrupando por semestre
 function renderMalla() {
