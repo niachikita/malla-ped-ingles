@@ -194,6 +194,7 @@ function renderMalla() {
       if (!bloqueado && !estado[ramo.nombre]) {
         ramoDiv.addEventListener('click', () => {
           estado[ramo.nombre] = true;
+          guardarEstado(estado);
           renderMalla();
         });
       }
