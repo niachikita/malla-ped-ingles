@@ -22,7 +22,7 @@ const ramos = [
   { nombre: "Introducción a la Gramática Inglesa", requisitos: ["Discurso Escrito de la Lengua Inglesa Pre-Intermedio"], semestre: "III Semestre" },
   { nombre: "Discurso Oral de la Lengua Inglesa Intermedio", requisitos: ["Discurso Oral de la Lengua Inglesa Pre-Intermedio"], semestre: "III Semestre" },
   { nombre: "Discurso Escrito de la Lengua Inglesa Intermedio", requisitos: ["Discurso Escrito de la Lengua Inglesa Pre-Intermedio"], semestre: "III Semestre" },
-  { nombre: "Latín I", requisitos: [], semestre: "III Semestre" },
+  { nombre: "Segundo Idioma I", requisitos: [], semestre: "III Semestre" },
   { nombre: "Curso de Formación Integral I", requisitos: [], semestre: "III Semestre" },
 
   { nombre: "Principios Metodológicos de la Investigación", requisitos: [], semestre: "IV Semestre" },
@@ -31,7 +31,7 @@ const ramos = [
   { nombre: "Morfosintaxis de la Lengua Inglesa", requisitos: ["Introducción a la Gramática Inglesa"], semestre: "IV Semestre" },
   { nombre: "Discurso Oral de la Lengua Inglesa Post-Intermedio I", requisitos: ["Discurso Oral de la Lengua Inglesa Intermedio"], semestre: "IV Semestre" },
   { nombre: "Discurso Escrito de la Lengua Inglesa Post-Intermedio I", requisitos: ["Discurso Escrito de la Lengua Inglesa Intermedio"], semestre: "IV Semestre" },
-  { nombre: "Latín II", requisitos: ["Latín I"], semestre: "IV Semestre" },
+  { nombre: "Segundo Idioma II", requisitos: ["Segundo Idioma I"], semestre: "IV Semestre" },
   { nombre: "Curso de Formación Integral II", requisitos: ["Curso de Formación Integral I"], semestre: "IV Semestre" },
 
   // Tercer año
@@ -41,7 +41,7 @@ const ramos = [
   { nombre: "Gramática Inglesa: Oraciones Simples y Compuestas", requisitos: ["Morfosintaxis de la Lengua Inglesa"], semestre: "V Semestre" },
   { nombre: "Discurso Oral de la Lengua Inglesa Post-Intermedio II", requisitos: ["Discurso Oral de la Lengua Inglesa Post-Intermedio I"], semestre: "V Semestre" },
   { nombre: "Discurso Escrito de la Lengua Inglesa Post-Intermedio II", requisitos: ["Discurso Escrito de la Lengua Inglesa Post-Intermedio I"], semestre: "V Semestre" },
-  { nombre: "Latín III", requisitos: ["Latín II"], semestre: "V Semestre" },
+  { nombre: "Segundo Idioma III", requisitos: ["Segundo Idioma II"], semestre: "V Semestre" },
   { nombre: "Curso de Formación Integral III", requisitos: ["Curso de Formación Integral II"], semestre: "V Semestre" },
 
   { nombre: "Práctica II: Identidad Docente en Estrategias en TEFL", requisitos: ["Práctica I: Identidad Docente en Orientación y Jefatura"], semestre: "VI Semestre" },
