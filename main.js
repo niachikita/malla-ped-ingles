@@ -50,7 +50,7 @@ const ramos = [
   { nombre: "Gramática Inglesa: Oraciones Complejas y Estructuración de Información", requisitos: ["Gramática Inglesa: Oraciones Simples y Compuestas"], semestre: "VI Semestre" },
   { nombre: "Discurso Oral de la Lengua Inglesa Pre-Avanzado", requisitos: ["Discurso Oral de la Lengua Inglesa Post-Intermedio II"], semestre: "VI Semestre" },
   { nombre: "Discurso Escrito de la Lengua Inglesa Pre-Avanzado", requisitos: ["Discurso Escrito de la Lengua Inglesa Post-Intermedio II"], semestre: "VI Semestre" },
-  { nombre: "Introducción a la Literatura", requisitos: [], semestre: "VI Semestre" },
+  { nombre: "Introducción a la Literatura Inglesa", requisitos: [], semestre: "VI Semestre" },
   { nombre: "Curso de Formación Integral IV", requisitos: ["Curso de Formación Integral III"], semestre: "VI Semestre" },
 
   // Cuarto año
@@ -60,7 +60,7 @@ const ramos = [
   { nombre: "Clima de Aula y Competencias Socio-Afectivas", requisitos: ["Discurso Oral de la Lengua Inglesa Pre-Avanzado", "Discurso Escrito de la Lengua Inglesa Pre-Avanzado"], semestre: "VII Semestre" },
   { nombre: "Discurso Oral de la Lengua Inglesa Avanzado I", requisitos: ["Discurso Oral de la Lengua Inglesa Pre-Avanzado"], semestre: "VII Semestre" },
   { nombre: "Discurso Escrito de la Lengua Inglesa Avanzado I", requisitos: ["Discurso Escrito de la Lengua Inglesa Pre-Avanzado"], semestre: "VII Semestre" },
-  { nombre: "Hitos de la Literatura Inglesa: Género Narrativo", requisitos: ["Introducción a la Literatura"], semestre: "VII Semestre" },
+  { nombre: "Hitos de la Literatura Inglesa: Género Narrativo", requisitos: ["Introducción a la Literatura Inglesa"], semestre: "VII Semestre" },
   { nombre: "Curso de Formación Integral IV", requisitos: ["Curso de Formación Integral IV"], semestre: "VII Semestre" },
 
   { nombre: "Práctica IV: Diseño y Evaluación en TEFL", requisitos: ["Práctica III: Implementación en Estrategias en TEFL"], semestre: "VIII Semestre" },
