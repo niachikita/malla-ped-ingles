@@ -42,7 +42,6 @@ const ramos = [
   { nombre: "Discurso Oral de la Lengua Inglesa Post-Intermedio II", requisitos: ["Discurso Oral de la Lengua Inglesa Post-Intermedio I"], semestre: "V Semestre" },
   { nombre: "Discurso Escrito de la Lengua Inglesa Post-Intermedio II", requisitos: ["Discurso Escrito de la Lengua Inglesa Post-Intermedio I"], semestre: "V Semestre" },
   { nombre: "Segundo Idioma III", requisitos: ["Segundo Idioma II"], semestre: "V Semestre" },
-  { nombre: "Curso de Formación Integral III", requisitos: ["Curso de Formación Integral II"], semestre: "V Semestre" },
 
   { nombre: "Práctica II: Identidad Docente en Estrategias en TEFL", requisitos: ["Práctica I: Identidad Docente en Orientación y Jefatura"], semestre: "VI Semestre" },
   { nombre: "Estrategias Metodológicas en TEFL", requisitos: ["Fundamentos Lingüísticos en el Aprendizaje del Inglés como Lengua Extranjera"], semestre: "VI Semestre" },
@@ -51,7 +50,7 @@ const ramos = [
   { nombre: "Discurso Oral de la Lengua Inglesa Pre-Avanzado", requisitos: ["Discurso Oral de la Lengua Inglesa Post-Intermedio II"], semestre: "VI Semestre" },
   { nombre: "Discurso Escrito de la Lengua Inglesa Pre-Avanzado", requisitos: ["Discurso Escrito de la Lengua Inglesa Post-Intermedio II"], semestre: "VI Semestre" },
   { nombre: "Introducción a la Literatura Inglesa", requisitos: [], semestre: "VI Semestre" },
-  { nombre: "Curso de Formación Integral IV", requisitos: ["Curso de Formación Integral III"], semestre: "VI Semestre" },
+  { nombre: "Curso de Formación Integral III", requisitos: ["Curso de Formación Integral II"], semestre: "VI Semestre" },
 
   // Cuarto año
   { nombre: "Práctica III: Implementación en Estrategias en TEFL", requisitos: ["Práctica II: Identidad Docente en Estrategias en TEFL"], semestre: "VII Semestre" },
@@ -61,7 +60,7 @@ const ramos = [
   { nombre: "Discurso Oral de la Lengua Inglesa Avanzado I", requisitos: ["Discurso Oral de la Lengua Inglesa Pre-Avanzado"], semestre: "VII Semestre" },
   { nombre: "Discurso Escrito de la Lengua Inglesa Avanzado I", requisitos: ["Discurso Escrito de la Lengua Inglesa Pre-Avanzado"], semestre: "VII Semestre" },
   { nombre: "Hitos de la Literatura Inglesa: Género Narrativo", requisitos: ["Introducción a la Literatura Inglesa"], semestre: "VII Semestre" },
-  { nombre: "Curso de Formación Integral IV", requisitos: ["Curso de Formación Integral IV"], semestre: "VII Semestre" },
+  { nombre: "Curso de Formación Integral IV", requisitos: ["Curso de Formación Integral III"], semestre: "VII Semestre" },
 
   { nombre: "Práctica IV: Diseño y Evaluación en TEFL", requisitos: ["Práctica III: Implementación en Estrategias en TEFL"], semestre: "VIII Semestre" },
   { nombre: "Evaluación en TEFL", requisitos: ["Currículum en TEFL"], semestre: "VIII Semestre" },
