@@ -203,10 +203,10 @@ function renderMalla() {
         ramoDiv.appendChild(reqDiv);
       }
 
-      // Click: solo si no está bloqueado y no está aprobado
-      if (!bloqueado && !estado[ramo.nombre]) {
+      // Click: permite aprobar y desaprobar si no está bloqueado
+      if (!bloqueado) {
         ramoDiv.addEventListener('click', () => {
-          estado[ramo.nombre] = true;
+          estado[ramo.nombre] = !estado[ramo.nombre];
           guardarEstado(estado);
           renderMalla();
         });
